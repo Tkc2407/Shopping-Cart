@@ -37,8 +37,8 @@ const Input = styled.input`
 `;
 
 const Centre = styled.div`
-    flex:1
-    text-align:center;
+    flex:1;
+    text-align: center;
 `;
 
 const Logo = styled.h1`
@@ -49,6 +49,7 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
 `;
 
 const MenuItem = styled.div`
