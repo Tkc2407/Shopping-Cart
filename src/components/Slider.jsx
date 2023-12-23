@@ -34,6 +34,7 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
+  transition: all 1.5s ease;
   transform: translateX(${(props) => props.slideIndex * -100}vw);
 `;
 
@@ -51,6 +52,8 @@ const Image = styled.img`
   height: 80%;
 `;
 const InfoContainer = styled.div`
+  justify-content: center;
+  align-items: center;
   flex: 1;
   padding: 50px;
 `;
