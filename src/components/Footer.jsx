@@ -140,4 +140,4 @@ import {
     );
   };
   
-  export default Foote;
+  export default Footer;
