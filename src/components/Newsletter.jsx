@@ -59,4 +59,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newslette;
+export default Newsletter;
