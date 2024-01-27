@@ -21,8 +21,8 @@ const Products = ({ cat, filters, sort }) => {
       try {
         const res = await axios.get(
           cat
-            ? `http://localhost:3000/api/products?category=${cat}`
-            : "http://localhost:3000/api/products"
+            ? `http://localhost:80/api/products?category=${cat}`
+            : "http://localhost:80/api/products"
         );
         setProducts(res.data);
       } catch (err) {}
@@ -42,7 +42,7 @@ const Products = ({ cat, filters, sort }) => {
   }, [products, cat, filters]);
   return (
     <Container>
-      {filteredProducts.map((item) => (
+      {popularProducts.map((item) => (
         <Product item={item} key={item.id} />
       ))}
     </Container>
